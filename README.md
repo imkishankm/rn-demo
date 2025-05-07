@@ -31,6 +31,8 @@ To ensure smooth performance with large datasets (10,000+ items), the following 
 - React.memo: Optimizes functional components by avoiding re-renders when props haven't changed.
 
 
+**Note**: To handle large data sets, we can implement pagination to improve initial rendering performance, and load more data as needed. However, in this case, pagination is not being used.
+
 # Getting Started ---------
 
 
